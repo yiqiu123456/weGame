@@ -38,6 +38,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@pixi/sound": "^5.2.0",
+    "pixi-spine": "^4.0.4",
     "whatwg-fetch": "^3.6.2"
   }
 }
