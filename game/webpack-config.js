@@ -38,8 +38,9 @@ module.exports = {
         new webpack.ProvidePlugin({
           PIXI: 'pixi.js'
         })
+        
       ],
-      devtool: prod ? false : 'source-map',
-      stats: 'errors-only',
-      mode: prod ? 'production' : 'development'
+    devtool: prod ? false : 'source-map',
+    stats: 'errors-only',
+    mode: prod ? 'production' : 'development'
 }
